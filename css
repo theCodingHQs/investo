@@ -1,0 +1,59 @@
+:root {
+  /* typography tokens (min, fluid, max) */
+  --fs-h1: clamp(2rem, 5.2vw, 3.5rem); /* 32px -> fluid -> 56px */
+  --fs-h2: clamp(1.75rem, 4.2vw, 2.5rem); /* 28px -> fluid -> 40px */
+  --fs-h3: clamp(1.375rem, 3.2vw, 2rem); /* 22px -> fluid -> 32px */
+  --fs-h4: clamp(1.125rem, 2.6vw, 1.5rem); /* 18px -> fluid -> 24px */
+
+  --fs-lead: clamp(1rem, 1.6vw, 1.25rem); /* 16px -> fluid -> 20px */
+  --fs-body: clamp(0.9375rem, 1.2vw, 1.125rem); /* 15px -> fluid -> 18px */
+  --fs-small: clamp(0.8125rem, 1vw, 0.9375rem); /* 13px -> fluid -> 15px */
+
+  /* recommended line-heights (use as utility classes or inline styles) */
+  --lh-tight: 1.05;
+  --lh-heading: 1.08;
+  --lh-lead: 1.5;
+  --lh-body: 1.6;
+}
+
+/* Optional: quick utility classes to use in markup */
+@layer utilities {
+  .text-h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-heading);
+  }
+  .text-h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-heading);
+  }
+  .text-h3 {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-tight);
+  }
+  .text-h4 {
+    font-size: var(--fs-h4);
+    line-height: var(--lh-tight);
+  }
+
+  .text-lead {
+    font-size: var(--fs-lead);
+    line-height: var(--lh-lead);
+  }
+  .text-body {
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+  }
+  .text-small {
+    font-size: var(--fs-small);
+    line-height: var(--lh-body);
+  }
+
+  /* helpers */
+  .max-content-width {
+    max-width: 70ch;
+  } /* recommended for readable paragraphs */
+  .heading-tight {
+    line-height: var(--lh-tight);
+    letter-spacing: -0.02em;
+  }
+}
