@@ -33,13 +33,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${poppins.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );

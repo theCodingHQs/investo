@@ -2,6 +2,7 @@ import About from "@/components/home/about/About";
 import ContactUs from "@/components/home/contact us/ContactUs";
 import FAQSection from "@/components/home/faq/FAQSection";
 import Hero from "@/components/home/hero/Hero";
+import HomeBuyingProcess from "@/components/home/home-buying-process";
 import OurValues from "@/components/home/our values/OurValues";
 import Projects from "@/components/home/projects/Projects";
 import WeAre from "@/components/home/we are/WeAre";
@@ -19,6 +20,7 @@ export default function Home() {
         }
       />
       <OurValues />
+      <HomeBuyingProcess />
       <Projects />
       <ContactUs />
       <FAQSection />

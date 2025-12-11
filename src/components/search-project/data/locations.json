@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Vitthal Nagar",
+    "lat": 18.481018,
+    "lng":  73.777885,
+    "description": "Warje, Pune, Maharashtra 411023"
+  },
+  {
+    "id": 2,
+    "name": "QQH+6X",
+    "lat": 18.489077,
+    "lng": 73.781190,
+    "description": "Atul Nagar, Warje, Pune, Maharashtra 411023"
+  },
+  {
+    "id": 3,
+    "name": "Atul Nagar",
+    "lat": 18.494938,
+    "lng":  73.782777,
+    "description": "Warje, Pune, Maharashtra 411058"
+  },
+  {
+    "id": 4,
+    "name": "Motiram Nagar",
+    "lat": 18.490949,
+    "lng": 73.798012,
+    "description": "Warje, Pune, Maharashtra 411058"
+  },
+  {
+    "id": 5,
+    "name": "Giridhar Nagar",
+    "lat": 18.481791,
+    "lng": 73.799901,
+    "description": "Warje, Pune, Maharashtra 411058"
+  }
+]

@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        className={`sticky top-0 left-0 w-full z-50 transition-all duration-300 ${
           scrolled
             ? "bg-gradient-to-b from-black/70 to-transparent backdrop-blur-md shadow-md"
             : "bg-transparent"
@@ -39,7 +39,7 @@ export default function Navbar() {
         }}
       >
         {/* Desktop / Tablet bar */}
-        <nav className="hidden md:flex w-full max-w-7xl mx-auto items-center justify-between py-6 px-6">
+        <nav className=" md:flex w-full max-w-7xl mx-auto items-center justify-between py-6 px-6 h-[10vh]">
           {/* Left: Logo */}
           <div className="flex items-center gap-4">
             <div className="relative w-36 h-10">
